@@ -1,0 +1,11 @@
+name: My First Workflow
+
+on: pull_request
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello, pull request done!"
