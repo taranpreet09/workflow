@@ -1,11 +1,18 @@
-name: My First Workflow
+name: checking needs
 
 on: push
 
 jobs:
   say-hello:
     runs-on: ubuntu-latest
-
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"
+
+  run-tests:
+    runs-on: ubuntu-latest
+    needs: say-hello  
+
+    steps:
+      - name: Run Tests
+        run: echo "Running tests after hello"
