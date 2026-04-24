@@ -1,1 +1,1 @@
-{"scripts":{"test":"echo test passed","lint":"eslint .","build":"echo build completed"},"dependencies":{"body-parser":"^2.2.2","express":"^5.2.1"},"devDependencies":{"eslint":"^10.2.1"}}
+{"scripts":{"test":"echo test passed","lint":"eslint .","build":"echo build completed"},"dependencies":{"body-parser":"^2.2.2","express":"^5.2.1"},"devDependencies":{"eslint":"^9.39.4"}}
